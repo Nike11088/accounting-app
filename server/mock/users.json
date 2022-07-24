@@ -1,0 +1,6 @@
+[
+  { "_id": "67rdca3eeb7f6fgeed471818", "name": "User1", "password": "Test1234",
+    "email": "user1@mail.ru",
+    "sex": "male"
+  }
+]
