@@ -1,4 +1,6 @@
 {
   "port": 8080,
-  "mongoUri": "mongodb://localhost:27017/accounting"
+  "mongoUri": "mongodb://localhost:27017/accounting",
+  "accessSecret": "super secret access key",
+  "refreshSecret": "super secret refresh key"
 }

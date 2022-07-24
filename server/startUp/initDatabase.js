@@ -2,10 +2,10 @@ const User = require('../models/User')
 const usersMock = require('../mock/users.json')
 
 module.exports = async () => {
-    const users = await User.find()
-    if (users.length !== usersMock.length) {
-        await createInitialEntity(User, usersMock)
-    }
+    // const users = await User.find()
+    // if (users.length !== usersMock.length) {
+    //     await createInitialEntity(User, usersMock)
+    // }
 }
 
 async function createInitialEntity(Model, data) {
